@@ -6,11 +6,16 @@ A single-page access-management app built with **Angular 12** and a **Node.js + 
 
 | Sign in (General User) | Dashboard (General User) |
 |---|---|
-| ![Login as General User](docs/screenshots/01-login-general-user.png) | ![General User dashboard with locked records](docs/screenshots/02-dashboard-general-user.png) |
+| ![Login as General User]<img width="1915" height="923" alt="image" src="https://github.com/user-attachments/assets/36131fb0-b8b1-4524-9ed3-fcbc31403824" />
+ | ![General User dashboard with locked records]<img width="1895" height="923" alt="image" src="https://github.com/user-attachments/assets/9d23dd3b-5ce0-4dd2-8ee5-db14ea013429" />
+ |
 
 | Sign in (Admin) | Dashboard (Admin) |
 |---|---|
-| ![Login as Admin](docs/screenshots/03-login-admin.png) | ![Admin dashboard with all records open](docs/screenshots/04-dashboard-admin.png) |
+| ![Login as Admin](<img width="1915" height="921" alt="image" src="https://github.com/user-attachments/assets/4de642d5-02fc-4952-a432-f4afa16f295e" />
+) | ![Admin dashboard with all records open](<img width="1893" height="917" alt="image" src="https://github.com/user-attachments/assets/692a5e4d-8212-489b-a851-533aea33e1ec" />
+)<img width="1905" height="922" alt="image" src="https://github.com/user-attachments/assets/f4886b0d-339a-4e3e-8738-f36975d2cbd8" />
+ |
 
 **Manage users (Admin only)**
 
