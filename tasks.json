@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Ledgerkey API",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev",
+				"--prefix",
+				"ledgerkey/server"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Ledgerkey client",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--node-options=--openssl-legacy-provider",
+				"start",
+				"--prefix",
+				"ledgerkey/client",
+				"--",
+				"--port",
+				"4300"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

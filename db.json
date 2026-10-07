@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": "237271da-1dac-4b2e-b571-4b2bf6ed06d5",
+      "userId": "admin",
+      "name": "Asha Verma",
+      "email": "asha@ledgerkey.dev",
+      "role": "Admin",
+      "active": true,
+      "hash": "e625179d2922d9b4:428e2ae1cd4491da7e4015806a1fe28612a15a163337875e63ae7d710b7d17bc",
+      "lastLogin": "2026-10-07T06:19:27.637Z"
+    },
+    {
+      "id": "41b98104-5e41-4374-9dfe-ba7df0c5ccc1",
+      "userId": "alice",
+      "name": "Alice Rao",
+      "email": "alice@ledgerkey.dev",
+      "role": "General User",
+      "active": true,
+      "hash": "288da51e4f0360b1:dbffb9cdc6550e49701c109ed75cfd433674ba646b6ddf6e074f173a7c339b3e",
+      "lastLogin": "2026-10-07T06:18:26.840Z"
+    },
+    {
+      "id": "796907ae-c139-47de-b959-d5143bd1a0da",
+      "userId": "bob",
+      "name": "Bob Iyer",
+      "email": "bob@ledgerkey.dev",
+      "role": "General User",
+      "active": false,
+      "hash": "c4614f3c27c65178:84d8f73b8aa82f4d4da22b7be26c9e6df82da78c4eac37f36269a16c4a3329c9"
+    }
+  ],
+  "records": [
+    {
+      "id": "REC-100",
+      "title": "Q3 product roadmap",
+      "category": "Product",
+      "access": "General User",
+      "owner": "Meera",
+      "updatedAt": "2026-10-07T05:32:51.813Z"
+    },
+    {
+      "id": "REC-101",
+      "title": "Office holiday calendar",
+      "category": "HR",
+      "access": "General User",
+      "owner": "Dev",
+      "updatedAt": "2026-10-04T05:32:51.813Z"
+    },
+    {
+      "id": "REC-102",
+      "title": "Public API changelog",
+      "category": "Engineering",
+      "access": "General User",
+      "owner": "Kabir",
+      "updatedAt": "2026-10-01T05:32:51.813Z"
+    },
+    {
+      "id": "REC-103",
+      "title": "Vendor onboarding guide",
+      "category": "Procurement",
+      "access": "General User",
+      "owner": "Isha",
+      "updatedAt": "2026-09-28T05:32:51.813Z"
+    },
+    {
+      "id": "REC-104",
+      "title": "Payroll register – Sept",
+      "category": "Finance",
+      "access": "Admin",
+      "owner": "Meera",
+      "updatedAt": "2026-09-25T05:32:51.814Z"
+    },
+    {
+      "id": "REC-105",
+      "title": "Production DB credentials rotation",
+      "category": "Security",
+      "access": "Admin",
+      "owner": "Dev",
+      "updatedAt": "2026-09-22T05:32:51.814Z"
+    },
+    {
+      "id": "REC-106",
+      "title": "Board meeting minutes",
+      "category": "Legal",
+      "access": "Admin",
+      "owner": "Kabir",
+      "updatedAt": "2026-09-19T05:32:51.814Z"
+    },
+    {
+      "id": "REC-107",
+      "title": "Audit findings 2026",
+      "category": "Compliance",
+      "access": "Admin",
+      "owner": "Isha",
+      "updatedAt": "2026-09-16T05:32:51.814Z"
+    }
+  ]
+}

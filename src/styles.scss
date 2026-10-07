@@ -1,0 +1,23 @@
+:root{--ink:#14222e;--ink2:#4b5d6b;--paper:#e9eef2;--card:#fbfcfd;--line:#cfd9e0;--teal:#0e8f83;--rose:#b83a4b;--amber:#e8a33d;--r:6px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 'IBM Plex Sans',system-ui,sans-serif}
+h1,h2,h3,.brand{font-family:'Familjen Grotesk',system-ui,sans-serif;letter-spacing:-.01em;margin:0}
+h1{font-size:2rem}h2{font-size:1.25rem}
+.page{max-width:1040px;margin:0 auto;padding:28px 20px 64px;display:grid;gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px}
+.muted{color:var(--ink2)}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.grow{flex:1}
+.field{display:grid;gap:4px;min-width:150px}.field label{font-weight:500;font-size:.85rem}
+input,select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:var(--r);background:#fff;color:var(--ink)}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--teal);outline-offset:1px}
+.btn{font:500 .9rem 'IBM Plex Sans';padding:9px 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:var(--r);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}.btn.danger{background:var(--rose);border-color:var(--rose)}.btn.sm{padding:4px 10px}
+.btn:disabled{opacity:.5;cursor:wait}
+.err{color:var(--rose);font-weight:500}
+table{width:100%;border-collapse:collapse}th{text-align:left;font-size:.8rem;color:var(--ink2);font-weight:500}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line)}
+tr.locked td{background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(184,58,75,.09) 6px 8px);color:var(--ink2)}
+.badge{padding:2px 9px;border-radius:99px;font-size:.78rem;font-weight:500;border:1px solid currentColor}
+.badge.ok{color:var(--teal)}.badge.no{color:var(--rose)}.badge.admin{color:#8a5a00;background:#fff3dc}
+.skel{height:14px;border-radius:4px;background:linear-gradient(90deg,#dde5ea,#eef2f5,#dde5ea);background-size:200% 100%;animation:sh 1.2s infinite}
+@keyframes sh{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.skel{animation:none}}

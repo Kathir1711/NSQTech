@@ -1,0 +1,1 @@
+{"compileOnSave":false,"compilerOptions":{"baseUrl":"./","outDir":"./dist/out-tsc","strict":false,"sourceMap":true,"declaration":false,"downlevelIteration":true,"experimentalDecorators":true,"moduleResolution":"node","importHelpers":true,"target":"es2017","module":"es2020","lib":["es2018","dom"]},"angularCompilerOptions":{"strictTemplates":false}}
